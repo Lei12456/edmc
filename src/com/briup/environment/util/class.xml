@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<enviorment>
+    <Gather class="com.briup.environment.client.GatherImp">
+        <dataPath>src/data</dataPath>
+    	<backupPath>src/backup</backupPath>
+    </Gather>
+    <Client class="com.briup.environment.client.ClientImp">
+    	<host>127.0.0.1</host>
+    	<port>8888</port>
+    </Client>
+    <Server class="com.briup.environment.server.ServerImp">
+    	<port>8888</port>
+    </Server>
+    <DBStore class="com.briup.environment.server.DBstoreImp">
+    </DBStore>
+    <Log class="com.briup.environment.util.LogImp">
+    </Log>
+    <BackUP class="com.briup.environment.util.BackUPImp"></BackUP>
+</enviorment>
